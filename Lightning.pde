@@ -12,8 +12,6 @@ void draw()
   ellipse((int)(Math.random()*500),(int)(Math.random()*100),(int)(Math.random()*100),(int)(Math.random()*100));
   int yOffset = (int) random(15,15);
   int xOffset = (int) random(-15,15);
-  int y2Offset = (int) random(15,15);
-  int x2Offset = (int) random(-15,15);
   stroke(255,200,0,(int)(Math.random()*70)+30);
   line(x, y, x+xOffset, y+yOffset);
   x = x+xOffset;
